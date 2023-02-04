@@ -73,8 +73,3 @@ gridContainer.addEventListener('mousedown', event => {
     }
     
 })
-
-// gridContainer.addEventListener('contextmenu', event => {
-//     removeElem = remove(event);
-//     return false;
-// }, false)
