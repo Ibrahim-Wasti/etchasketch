@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="script.js"></script>
-    <link rel="'stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Etch-a-Sketch</title>
 </head>
 <body>
-    
+    <div id="controls">
+        <p>Click inside the gird to toggle the pen</p>
+        <p>Middle mouse click to erase a drawn in square</p>
+        <button id="clear">Clear</button>
+        <div id="new-container">
+            <button id="new">New</button>
+            <input id="new-input" type="range" min="3" max="50" value="16">
+            <label id="size-label" for="grid-size"></label>
+        </div>
+    </div>
+
+    <div id="grid-container"></div>
 </body>
 </html>
